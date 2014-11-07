@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'UIUserNotificationSettings-Extension', :exclusive => true do
+  pod "UIUserNotificationSettings-Extension", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "UIUserNotificationSettings-Extension", :path => "../"
+
+  pod 'Specta', '~> 0.2.1'
+  pod 'Expecta'
+end
