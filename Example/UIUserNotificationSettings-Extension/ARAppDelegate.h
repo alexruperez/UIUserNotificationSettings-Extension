@@ -2,7 +2,7 @@
 //  ARAppDelegate.h
 //  UIUserNotificationSettings-Extension
 //
-//  Created by CocoaPods on 11/07/2014.
+//  Created by Alejandro Rupérez on 11/07/2014.
 //  Copyright (c) 2014 alexruperez. All rights reserved.
 //
 

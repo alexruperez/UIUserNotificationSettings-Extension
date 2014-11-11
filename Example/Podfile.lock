@@ -1,0 +1,14 @@
+PODS:
+  - UIUserNotificationSettings-Extension (0.1.0)
+
+DEPENDENCIES:
+  - UIUserNotificationSettings-Extension (from `../`)
+
+EXTERNAL SOURCES:
+  UIUserNotificationSettings-Extension:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UIUserNotificationSettings-Extension: 5b7ce321282b19bebe8832f91c6f83f383843d8a
+
+COCOAPODS: 0.34.4

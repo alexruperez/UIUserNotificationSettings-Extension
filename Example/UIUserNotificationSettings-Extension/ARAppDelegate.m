@@ -2,20 +2,68 @@
 //  ARAppDelegate.m
 //  UIUserNotificationSettings-Extension
 //
-//  Created by CocoaPods on 11/07/2014.
+//  Created by Alejandro Rupérez on 11/07/2014.
 //  Copyright (c) 2014 alexruperez. All rights reserved.
 //
 
 #import "ARAppDelegate.h"
 
+#import <UIUserNotificationSettings-Extension/UIUserNotificationSettings+Extension.h>
+
 @implementation ARAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [UIWindow.alloc initWithFrame:UIScreen.mainScreen.bounds];
+    self.window.rootViewController = UIViewController.new;
+
+    UILabel *label = [UILabel.alloc initWithFrame:CGRectMake(20.0f, 64.0f, self.window.bounds.size.width - 40.0f, self.window.bounds.size.height - 84.0f)];
+    label.text = @"Send me to background to launch a local notification...\n\nTo see the \"default\" notification actions, select the \"alert style\" on your app notifications settings.\n\nEnjoy! 😃";
+    label.textColor = UIColor.whiteColor;
+    label.textAlignment = NSTextAlignmentCenter;
+    label.numberOfLines = 0;
+    [self.window.rootViewController.view addSubview:label];
+
+    UIUserNotificationAction *openAction = [UIUserNotificationAction foregroundActionWithIdentifier:@"open_action" title:@"Open with alert 😉"];
+    UIUserNotificationAction *deleteAction = [UIUserNotificationAction backgroundDestructiveActionWithIdentifier:@"delete_action" title:@"Delete 😱" authenticationRequired:YES];
+    UIUserNotificationAction *okAction = [UIUserNotificationAction backgroundActionWithIdentifier:@"ok_action" title:@"Ok 👍" authenticationRequired:NO];
+
+    UIUserNotificationCategory *userNotificationCategory = [UIUserNotificationCategory categoryWithIdentifier:@"default_category" defaultActions:@[openAction, deleteAction, okAction] minimalActions:@[okAction, deleteAction]];
+
+    UIUserNotificationSettings *userNotificationSettings = [UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAll categoriesArray:@[userNotificationCategory]];
+
+    [application registerUserNotificationSettings:userNotificationSettings];
+
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
-							
+
+- (void)application:(UIApplication *)application didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings
+{
+    NSLog(@"didRegisterUserNotificationSettings: %@", notificationSettings);
+}
+
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
+{
+    NSLog(@"didReceiveLocalNotification: %@", notification);
+}
+
+- (void)application:(UIApplication *)application handleActionWithIdentifier:(NSString *)identifier forLocalNotification:(UILocalNotification *)notification completionHandler:(void (^)())completionHandler
+{
+    NSLog(@"handleActionWithIdentifier: %@", identifier);
+
+    if ([identifier isEqualToString:@"open_action"])
+    {
+        [[[UIAlertView alloc] initWithTitle:@"Opened!" message:@"This action only open the app... 😀" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil] show];
+    }
+
+    if (completionHandler)
+    {
+        completionHandler();
+    }
+}
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -24,8 +72,14 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    UILocalNotification *localNotification = UILocalNotification.new;
+
+    localNotification.fireDate = [NSDate dateWithTimeIntervalSinceNow:1];
+    localNotification.alertBody = @"You've closed me?!? 😡";
+    localNotification.alertAction = @"Open 😉";
+    localNotification.category = @"default_category";
+
+    [application scheduleLocalNotification:localNotification];
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
