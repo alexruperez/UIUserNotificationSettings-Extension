@@ -41,7 +41,7 @@ UIUserNotificationCategory *userNotificationCategory = [UIUserNotificationCatego
 
 UIUserNotificationSettings *userNotificationSettings = [UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAll categoriesArray:@[userNotificationCategory]];
 
-[application registerUserNotificationSettings:userNotificationSettings];
+[[UIApplication sharedApplication] registerUserNotificationSettings:userNotificationSettings];
 ```
 
 # Etc.
