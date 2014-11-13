@@ -6,6 +6,7 @@
 [![Version](https://img.shields.io/cocoapods/v/UIUserNotificationSettings-Extension.svg?style=flat)](http://cocoadocs.org/docsets/UIUserNotificationSettings-Extension)
 [![License](https://img.shields.io/cocoapods/l/UIUserNotificationSettings-Extension.svg?style=flat)](http://cocoadocs.org/docsets/UIUserNotificationSettings-Extension)
 [![Platform](https://img.shields.io/cocoapods/p/UIUserNotificationSettings-Extension.svg?style=flat)](http://cocoadocs.org/docsets/UIUserNotificationSettings-Extension)
+[![Dependency Status](https://www.versioneye.com/user/projects/5464867bff490eff7400006f/badge.svg?style=flat)](https://www.versioneye.com/user/projects/5464867bff490eff7400006f)
 [![Analytics](https://ga-beacon.appspot.com/UA-55329295-1/UIUserNotificationSettings-Extension/readme?pixel)](https://github.com/igrigorik/ga-beacon)
 
 ## Overview
