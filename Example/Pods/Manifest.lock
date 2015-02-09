@@ -11,4 +11,4 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   UIUserNotificationSettings-Extension: c2b84039b9ecdab5f2259b8ab49a14dee36fce13
 
-COCOAPODS: 0.34.4
+COCOAPODS: 0.35.0

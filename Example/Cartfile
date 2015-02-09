@@ -1,0 +1,2 @@
+# Require version 0.1.0 or later
+github "alexruperez/UIUserNotificationSettings-Extension" >= 0.1.0
