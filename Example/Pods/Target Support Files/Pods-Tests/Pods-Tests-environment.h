@@ -10,5 +10,5 @@
 #define COCOAPODS_POD_AVAILABLE_UIUserNotificationSettings_Extension
 #define COCOAPODS_VERSION_MAJOR_UIUserNotificationSettings_Extension 0
 #define COCOAPODS_VERSION_MINOR_UIUserNotificationSettings_Extension 1
-#define COCOAPODS_VERSION_PATCH_UIUserNotificationSettings_Extension 0
+#define COCOAPODS_VERSION_PATCH_UIUserNotificationSettings_Extension 1
 
