@@ -3,7 +3,6 @@
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/alexruperez/UIUserNotificationSettings-Extension?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Twitter](http://img.shields.io/badge/contact-@alexruperez-blue.svg?style=flat)](http://twitter.com/alexruperez)
 [![GitHub Issues](http://img.shields.io/github/issues/alexruperez/UIUserNotificationSettings-Extension.svg?style=flat)](http://github.com/alexruperez/UIUserNotificationSettings-Extension/issues)
-[![CI Status](http://img.shields.io/travis/alexruperez/UIUserNotificationSettings-Extension.svg?style=flat)](https://travis-ci.org/alexruperez/UIUserNotificationSettings-Extension)
 [![Version](https://img.shields.io/cocoapods/v/UIUserNotificationSettings-Extension.svg?style=flat)](http://cocoadocs.org/docsets/UIUserNotificationSettings-Extension)
 [![License](https://img.shields.io/cocoapods/l/UIUserNotificationSettings-Extension.svg?style=flat)](http://cocoadocs.org/docsets/UIUserNotificationSettings-Extension)
 [![Platform](https://img.shields.io/cocoapods/p/UIUserNotificationSettings-Extension.svg?style=flat)](http://cocoadocs.org/docsets/UIUserNotificationSettings-Extension)
