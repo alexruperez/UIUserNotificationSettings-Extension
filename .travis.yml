@@ -6,4 +6,4 @@ before_install:
   - brew update
   - if brew outdated | grep -qx xctool; then brew upgrade xctool; fi
 script:
-- xctool clean test -workspace Example/UIUserNotificationSettings-Extension.xcworkspace -scheme UIUserNotificationSettings-Extension -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+- xctool test -workspace Example/UIUserNotificationSettings-Extension.xcworkspace -scheme UIUserNotificationSettings-Extension -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
