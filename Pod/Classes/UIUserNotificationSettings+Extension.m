@@ -46,34 +46,63 @@
 
 + (instancetype)foregroundActionWithIdentifier:(NSString *)identifier title:(NSString *)title
 {
-    return [self actionWithIdentifier:identifier title:title activationMode:UIUserNotificationActivationModeForeground authenticationRequired:YES destructive:NO];
+    return [self foregroundActionWithIdentifier:identifier title:title textInput:NO];
+}
+
++ (instancetype)foregroundActionWithIdentifier:(NSString *)identifier title:(NSString *)title textInput:(BOOL)textInput
+{
+    return [self actionWithIdentifier:identifier title:title activationMode:UIUserNotificationActivationModeForeground authenticationRequired:YES destructive:NO textInput:textInput];
 }
 
 + (instancetype)foregroundDestructiveActionWithIdentifier:(NSString *)identifier title:(NSString *)title
 {
-    return [self actionWithIdentifier:identifier title:title activationMode:UIUserNotificationActivationModeForeground authenticationRequired:YES destructive:YES];
+    return [self foregroundDestructiveActionWithIdentifier:identifier title:title textInput:NO];
+}
+
++ (instancetype)foregroundDestructiveActionWithIdentifier:(NSString *)identifier title:(NSString *)title textInput:(BOOL)textInput
+{
+    return [self actionWithIdentifier:identifier title:title activationMode:UIUserNotificationActivationModeForeground authenticationRequired:YES destructive:YES textInput:textInput];
 }
 
 + (instancetype)backgroundActionWithIdentifier:(NSString *)identifier title:(NSString *)title authenticationRequired:(BOOL)authenticationRequired
 {
-    return [self actionWithIdentifier:identifier title:title activationMode:UIUserNotificationActivationModeBackground authenticationRequired:authenticationRequired destructive:NO];
+    return [self backgroundDestructiveActionWithIdentifier:identifier title:title authenticationRequired:authenticationRequired textInput:NO];
+}
+
++ (instancetype)backgroundActionWithIdentifier:(NSString *)identifier title:(NSString *)title authenticationRequired:(BOOL)authenticationRequired textInput:(BOOL)textInput
+{
+    return [self actionWithIdentifier:identifier title:title activationMode:UIUserNotificationActivationModeBackground authenticationRequired:authenticationRequired destructive:NO textInput:textInput];
 }
 
 + (instancetype)backgroundDestructiveActionWithIdentifier:(NSString *)identifier title:(NSString *)title authenticationRequired:(BOOL)authenticationRequired
 {
-    return [self actionWithIdentifier:identifier title:title activationMode:UIUserNotificationActivationModeBackground authenticationRequired:authenticationRequired destructive:YES];
+    return [self backgroundDestructiveActionWithIdentifier:identifier title:title authenticationRequired:authenticationRequired textInput:NO];
+}
+
++ (instancetype)backgroundDestructiveActionWithIdentifier:(NSString *)identifier title:(NSString *)title authenticationRequired:(BOOL)authenticationRequired textInput:(BOOL)textInput
+{
+    return [self actionWithIdentifier:identifier title:title activationMode:UIUserNotificationActivationModeBackground authenticationRequired:authenticationRequired destructive:YES textInput:textInput];
 }
 
 + (instancetype)actionWithIdentifier:(NSString *)identifier title:(NSString *)title activationMode:(UIUserNotificationActivationMode)activationMode authenticationRequired:(BOOL)authenticationRequired destructive:(BOOL)destructive
 {
-    UIMutableUserNotificationAction *instance = UIMutableUserNotificationAction.new;
+    return [self actionWithIdentifier:identifier title:title activationMode:activationMode authenticationRequired:authenticationRequired destructive:destructive textInput:NO];
+}
 
++ (instancetype)actionWithIdentifier:(NSString *)identifier title:(NSString *)title activationMode:(UIUserNotificationActivationMode)activationMode authenticationRequired:(BOOL)authenticationRequired destructive:(BOOL)destructive textInput:(BOOL)textInput
+{
+    UIMutableUserNotificationAction *instance = UIMutableUserNotificationAction.new;
+    
     instance.identifier = identifier;
     instance.title = title;
     instance.activationMode = activationMode;
     instance.authenticationRequired = authenticationRequired;
     instance.destructive = destructive;
-
+    if ([instance respondsToSelector:NSSelectorFromString(@"behavior")])
+    {
+        [instance setValue:@(textInput) forKey:@"behavior"];
+    }
+    
     return instance.copy;
 }
 

@@ -32,12 +32,22 @@
 
 + (instancetype)foregroundActionWithIdentifier:(NSString *)identifier title:(NSString *)title;
 
++ (instancetype)foregroundActionWithIdentifier:(NSString *)identifier title:(NSString *)title textInput:(BOOL)textInput;
+
 + (instancetype)foregroundDestructiveActionWithIdentifier:(NSString *)identifier title:(NSString *)title;
+
++ (instancetype)foregroundDestructiveActionWithIdentifier:(NSString *)identifier title:(NSString *)title textInput:(BOOL)textInput;
 
 + (instancetype)backgroundActionWithIdentifier:(NSString *)identifier title:(NSString *)title authenticationRequired:(BOOL)authenticationRequired;
 
++ (instancetype)backgroundActionWithIdentifier:(NSString *)identifier title:(NSString *)title authenticationRequired:(BOOL)authenticationRequired textInput:(BOOL)textInput;
+
 + (instancetype)backgroundDestructiveActionWithIdentifier:(NSString *)identifier title:(NSString *)title authenticationRequired:(BOOL)authenticationRequired;
 
++ (instancetype)backgroundDestructiveActionWithIdentifier:(NSString *)identifier title:(NSString *)title authenticationRequired:(BOOL)authenticationRequired textInput:(BOOL)textInput;
+
 + (instancetype)actionWithIdentifier:(NSString *)identifier title:(NSString *)title activationMode:(UIUserNotificationActivationMode)activationMode authenticationRequired:(BOOL)authenticationRequired destructive:(BOOL)destructive;
+
++ (instancetype)actionWithIdentifier:(NSString *)identifier title:(NSString *)title activationMode:(UIUserNotificationActivationMode)activationMode authenticationRequired:(BOOL)authenticationRequired destructive:(BOOL)destructive textInput:(BOOL)textInput;
 
 @end

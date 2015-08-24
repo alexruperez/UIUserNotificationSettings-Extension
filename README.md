@@ -11,10 +11,11 @@
 
 ## Overview
 
-UIUserNotificationSettings-Extension provides helper methods that will make you much easier to handle the new #iOS8 #Interactive #Notifications.
+UIUserNotificationSettings-Extension provides helper methods that will make you much easier to handle #Interactive #Notifications.
 
 ![UIUserNotificationSettings-Extension Screenshot 1](https://raw.githubusercontent.com/alexruperez/UIUserNotificationSettings-Extension/master/screenshot_1.jpg)
 ![UIUserNotificationSettings-Extension Screenshot 2](https://raw.githubusercontent.com/alexruperez/UIUserNotificationSettings-Extension/master/screenshot_2.jpg)
+![UIUserNotificationSettings-Extension Screenshot 3](https://raw.githubusercontent.com/alexruperez/UIUserNotificationSettings-Extension/master/screenshot_3.jpg)
 
 ## Usage
 
@@ -36,7 +37,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ```objectivec
 UIUserNotificationAction *openAction = [UIUserNotificationAction foregroundActionWithIdentifier:@"open_action" title:@"Open with alert 😉"];
 UIUserNotificationAction *deleteAction = [UIUserNotificationAction backgroundDestructiveActionWithIdentifier:@"delete_action" title:@"Delete 😱" authenticationRequired:YES];
-UIUserNotificationAction *okAction = [UIUserNotificationAction backgroundActionWithIdentifier:@"ok_action" title:@"Ok 👍" authenticationRequired:NO];
+UIUserNotificationAction *okAction = [UIUserNotificationAction backgroundActionWithIdentifier:@"ok_action" title:@"Ok 👍" authenticationRequired:NO textInput:YES];
 
 UIUserNotificationCategory *userNotificationCategory = [UIUserNotificationCategory categoryWithIdentifier:@"default_category" defaultActions:@[openAction, deleteAction, okAction] minimalActions:@[okAction, deleteAction]];
 
