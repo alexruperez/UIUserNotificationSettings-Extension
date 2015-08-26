@@ -7,448 +7,384 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21566A321616B00211FEBDC4 /* UIUserNotificationSettings+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FAF97CA9F1729F51DF86A4 /* UIUserNotificationSettings+Extension.m */; };
-		21A5EAA86989BC650FE9400E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CFEF8804C2F33D69B8877A /* UIKit.framework */; };
-		2BB201BABD9D62BB3442FFD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F317F376FD4A7AA75917CBE /* Foundation.framework */; };
-		3496C48CB64BFE9974061A67 /* UIUserNotificationSettings+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FAF97CA9F1729F51DF86A4 /* UIUserNotificationSettings+Extension.m */; };
-		3E50C829E50912FC3B989F6E /* Pods-UIUserNotificationSettings-Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D99C60019F15B27FDE02DA /* Pods-UIUserNotificationSettings-Extension-dummy.m */; };
-		432DAFD3DBC9B9B1767DB342 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F27E90540C90F33FBFEE5730 /* Pods-Tests-dummy.m */; };
-		6844DFD5CF83076D3FCC8AB5 /* UIUserNotificationSettings+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = B327B0BE910934AD1F6E9C56 /* UIUserNotificationSettings+Extension.h */; };
-		9A0E940A25B003C15D37E8DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F317F376FD4A7AA75917CBE /* Foundation.framework */; };
-		AE5C2A8564DF0DDE03DCF864 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F317F376FD4A7AA75917CBE /* Foundation.framework */; };
-		B615B163CDA7E0C00A7B4537 /* Pods-Tests-UIUserNotificationSettings-Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5EE6BC3115230B189D82CB /* Pods-Tests-UIUserNotificationSettings-Extension-dummy.m */; };
-		C8439562E5BA08FCE3FED592 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CFEF8804C2F33D69B8877A /* UIKit.framework */; };
-		D52380FBF10F1CBFC13359D0 /* UIUserNotificationSettings+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = B327B0BE910934AD1F6E9C56 /* UIUserNotificationSettings+Extension.h */; };
-		E0D09D0B28B3F97BDBA3647B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F317F376FD4A7AA75917CBE /* Foundation.framework */; };
-		EFA05BA18670C503951399B7 /* Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEE5435E254515081ECED68 /* Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension-dummy.m */; };
+		0D02F012EF2E55DBBDF560D758445D5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B260377BB79E7A60DC46DFA276458C11 /* Foundation.framework */; };
+		1D004DCD520D3F0FBBA4CFC12AB74E10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A10E928BB2A5C1EC2722086F83005C /* UIKit.framework */; };
+		4B621C3EC3CFB6C31E1995FAB520EB6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B260377BB79E7A60DC46DFA276458C11 /* Foundation.framework */; };
+		81D34170BE8662DF4D1BEC16CBDBE3A7 /* Pods-UIUserNotificationSettings-Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7F72B301D2FAB2A9D87D05CBA0FE69 /* Pods-UIUserNotificationSettings-Extension-dummy.m */; };
+		83CE9A5E4B70C3224E0EBEF0BA54E48A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B260377BB79E7A60DC46DFA276458C11 /* Foundation.framework */; };
+		8B7C7FA8B33470EDF9DCEF06AB8637A0 /* UIUserNotificationSettings+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = AF824789290830A636D8E76BD40894EE /* UIUserNotificationSettings+Extension.h */; };
+		EB4CA9CCFFF2F754E22B5BFD4A0C01C5 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 741433EC04AB783552455F9131533FB8 /* Pods-Tests-dummy.m */; };
+		EE032AAF30DDFBFD5C32C615BFC2783B /* UIUserNotificationSettings+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9197026FAE69BE3CCCEA71AF96938 /* UIUserNotificationSettings+Extension.m */; };
+		FA2BDE74347243BACA06FF048E90928C /* UIUserNotificationSettings-Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A57490C11987AA7CFB66EE990D5A74 /* UIUserNotificationSettings-Extension-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		04F115FABF6A908D3C6EB3B0 /* PBXContainerItemProxy */ = {
+		B3C5B9EF3A39990A74D427352EEA372E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 942050F5557479A5DAFE0DEF /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C80898A9A5DA6C6AA73A7AF3;
-			remoteInfo = "Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension";
+			remoteGlobalIDString = 03AB3644AE24C7BC8D7FB83AACEB71FE;
+			remoteInfo = "UIUserNotificationSettings-Extension";
 		};
-		1BB1543D8BAD7C120032FE87 /* PBXContainerItemProxy */ = {
+		D5E56716BC5D5211CBE5F28129E114E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 942050F5557479A5DAFE0DEF /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A90D0DF39F723D9A1CBB1841;
-			remoteInfo = "Pods-Tests-UIUserNotificationSettings-Extension";
+			remoteGlobalIDString = 03AB3644AE24C7BC8D7FB83AACEB71FE;
+			remoteInfo = "UIUserNotificationSettings-Extension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10CFEF8804C2F33D69B8877A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		2AFCCAD68D9F2AC562AAC09A /* libPods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		321EAED49D9A4A876C7490C2 /* Pods-Tests-UIUserNotificationSettings-Extension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-UIUserNotificationSettings-Extension.xcconfig"; sourceTree = "<group>"; };
-		348FF6D9358BBE5BCFE68BB6 /* Pods-Tests-UIUserNotificationSettings-Extension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-UIUserNotificationSettings-Extension-prefix.pch"; sourceTree = "<group>"; };
-		36A134D5B568A57E1EB3205A /* Pods-Tests-UIUserNotificationSettings-Extension-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-UIUserNotificationSettings-Extension-Private.xcconfig"; sourceTree = "<group>"; };
-		3D791C6FF62E8F2E00B3C308 /* Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension.xcconfig"; path = "../Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension/Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension.xcconfig"; sourceTree = "<group>"; };
-		440015E509B8F8CCD6EB1AC5 /* Pods-UIUserNotificationSettings-Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIUserNotificationSettings-Extension-acknowledgements.plist"; sourceTree = "<group>"; };
-		62FFB39A6A3388AC2024D673 /* Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension-prefix.pch"; path = "../Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension/Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension-prefix.pch"; sourceTree = "<group>"; };
-		7F317F376FD4A7AA75917CBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		818321698278B55AD9699B54 /* Pods-UIUserNotificationSettings-Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIUserNotificationSettings-Extension.debug.xcconfig"; sourceTree = "<group>"; };
-		84012744EBFF58AD59D5F8BB /* libPods-UIUserNotificationSettings-Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIUserNotificationSettings-Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		995317812D6B3730D05CA8B2 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9B5EE6BC3115230B189D82CB /* Pods-Tests-UIUserNotificationSettings-Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-UIUserNotificationSettings-Extension-dummy.m"; sourceTree = "<group>"; };
-		9CEE5435E254515081ECED68 /* Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension-dummy.m"; path = "../Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension/Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension-dummy.m"; sourceTree = "<group>"; };
-		9DEF7916A44AC8206909C4D9 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AF0BB6C7D191F3F857161D03 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		AFBB8B5A5010F823A6C57983 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B327B0BE910934AD1F6E9C56 /* UIUserNotificationSettings+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIUserNotificationSettings+Extension.h"; sourceTree = "<group>"; };
-		B8FAF97CA9F1729F51DF86A4 /* UIUserNotificationSettings+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIUserNotificationSettings+Extension.m"; sourceTree = "<group>"; };
-		BAFA8DBB770468F211A75013 /* Pods-UIUserNotificationSettings-Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIUserNotificationSettings-Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C396BDD4E67AC4F1324E0335 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
-		C732430F452EFB925D6132CE /* Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension-Private.xcconfig"; path = "../Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension/Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension-Private.xcconfig"; sourceTree = "<group>"; };
-		C94E5E9D6E8A314B715B6E1A /* Pods-UIUserNotificationSettings-Extension-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIUserNotificationSettings-Extension-environment.h"; sourceTree = "<group>"; };
-		CEC3DCC1C27C0DD5A366A950 /* Pods-UIUserNotificationSettings-Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIUserNotificationSettings-Extension-resources.sh"; sourceTree = "<group>"; };
-		D5D99C60019F15B27FDE02DA /* Pods-UIUserNotificationSettings-Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIUserNotificationSettings-Extension-dummy.m"; sourceTree = "<group>"; };
-		D6714C29F03102CF506CB2FB /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E45F6B24D2A178085962F7A0 /* libPods-Tests-UIUserNotificationSettings-Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-UIUserNotificationSettings-Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9FB71D64718E4CB72D332C3 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F27E90540C90F33FBFEE5730 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		FCE5BB82E82F3AEDA63843A6 /* Pods-UIUserNotificationSettings-Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIUserNotificationSettings-Extension.release.xcconfig"; sourceTree = "<group>"; };
-		FFB3E3F7BBBECA7566A2876A /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		014953C1D937DA82932DEE97F41D7355 /* Pods-UIUserNotificationSettings-Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIUserNotificationSettings-Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		0457F0A1FD9A6823C07E54B769BBE3F9 /* Pods-UIUserNotificationSettings-Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIUserNotificationSettings-Extension-resources.sh"; sourceTree = "<group>"; };
+		0A2BA23C297A45EF5656DC1E90DBAA29 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9AAB8128CE26D6EF7A65CF04682E3A /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		23A10E928BB2A5C1EC2722086F83005C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2676BC9FEA15C797A249B1162A5E7EE7 /* Pods-UIUserNotificationSettings-Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIUserNotificationSettings-Extension.release.xcconfig"; sourceTree = "<group>"; };
+		4A589CCCDB6EE83A1EC2AF71855DAA66 /* Pods-UIUserNotificationSettings-Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIUserNotificationSettings-Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		67FF138165E5F690C9844B371504D310 /* UIUserNotificationSettings-Extension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIUserNotificationSettings-Extension-prefix.pch"; sourceTree = "<group>"; };
+		741433EC04AB783552455F9131533FB8 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		79A57490C11987AA7CFB66EE990D5A74 /* UIUserNotificationSettings-Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIUserNotificationSettings-Extension-dummy.m"; sourceTree = "<group>"; };
+		81551DBE3112A2AC41C5A10A7441AE0A /* UIUserNotificationSettings-Extension-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIUserNotificationSettings-Extension-Private.xcconfig"; sourceTree = "<group>"; };
+		8E5F1593EC19E9C595E7AEFE564E690F /* libUIUserNotificationSettings-Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUIUserNotificationSettings-Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E43D8484525A0A0FE99C368DE8EE2E7 /* Pods-UIUserNotificationSettings-Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIUserNotificationSettings-Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		A2369269254BC6E092D9DCDA558F1A2E /* libPods-UIUserNotificationSettings-Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIUserNotificationSettings-Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F9197026FAE69BE3CCCEA71AF96938 /* UIUserNotificationSettings+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIUserNotificationSettings+Extension.m"; sourceTree = "<group>"; };
+		AF824789290830A636D8E76BD40894EE /* UIUserNotificationSettings+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIUserNotificationSettings+Extension.h"; sourceTree = "<group>"; };
+		B260377BB79E7A60DC46DFA276458C11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C10FD72A4DD475A05AC20B1553EA88E6 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		C6CD6EDA5633DAE1111F0FA9E6DB7AE9 /* UIUserNotificationSettings-Extension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIUserNotificationSettings-Extension.xcconfig"; sourceTree = "<group>"; };
+		DFCE2252CC49DDC6DD2D84DDD99E427C /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E106F42061E5964C72F89399DC9D21C8 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EE5AC399CDC7919F958D249CE4E92DB5 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE7F72B301D2FAB2A9D87D05CBA0FE69 /* Pods-UIUserNotificationSettings-Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIUserNotificationSettings-Extension-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3371246285429D6CDFAD682B /* Frameworks */ = {
+		5F56BDFCC4D368A92CC262C7886B0266 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BB201BABD9D62BB3442FFD2 /* Foundation.framework in Frameworks */,
+				4B621C3EC3CFB6C31E1995FAB520EB6B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67FA2B3D07F52B518AD3FB5F /* Frameworks */ = {
+		AEF247A863DDFA6FECA5664DB19621E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE5C2A8564DF0DDE03DCF864 /* Foundation.framework in Frameworks */,
-				C8439562E5BA08FCE3FED592 /* UIKit.framework in Frameworks */,
+				83CE9A5E4B70C3224E0EBEF0BA54E48A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DAFC7C4ED4FFB78C9868136 /* Frameworks */ = {
+		E575CF99C75F04268D4E0D144F025D36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0D09D0B28B3F97BDBA3647B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A0BC5A49B18F961CDCE9CABD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A0E940A25B003C15D37E8DA /* Foundation.framework in Frameworks */,
-				21A5EAA86989BC650FE9400E /* UIKit.framework in Frameworks */,
+				0D02F012EF2E55DBBDF560D758445D5B /* Foundation.framework in Frameworks */,
+				1D004DCD520D3F0FBBA4CFC12AB74E10 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02975CD27ED44AD3FE1C8598 = {
+		333EBAD12CD9ECF5DDBABD435CD96BC1 /* Pods-UIUserNotificationSettings-Extension */ = {
 			isa = PBXGroup;
 			children = (
-				9DEF7916A44AC8206909C4D9 /* Podfile */,
-				FD453932B5B8549FD52BF56A /* Development Pods */,
-				C011405C86C06B93DB06BF31 /* Frameworks */,
-				33729F5C7A4640CC8D437AE4 /* Products */,
-				A1DEBB357E5183BFE0095B7C /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		28A24DB11475647E5556465F /* Pods-UIUserNotificationSettings-Extension */ = {
-			isa = PBXGroup;
-			children = (
-				BAFA8DBB770468F211A75013 /* Pods-UIUserNotificationSettings-Extension-acknowledgements.markdown */,
-				440015E509B8F8CCD6EB1AC5 /* Pods-UIUserNotificationSettings-Extension-acknowledgements.plist */,
-				D5D99C60019F15B27FDE02DA /* Pods-UIUserNotificationSettings-Extension-dummy.m */,
-				C94E5E9D6E8A314B715B6E1A /* Pods-UIUserNotificationSettings-Extension-environment.h */,
-				CEC3DCC1C27C0DD5A366A950 /* Pods-UIUserNotificationSettings-Extension-resources.sh */,
-				818321698278B55AD9699B54 /* Pods-UIUserNotificationSettings-Extension.debug.xcconfig */,
-				FCE5BB82E82F3AEDA63843A6 /* Pods-UIUserNotificationSettings-Extension.release.xcconfig */,
+				4A589CCCDB6EE83A1EC2AF71855DAA66 /* Pods-UIUserNotificationSettings-Extension-acknowledgements.markdown */,
+				9E43D8484525A0A0FE99C368DE8EE2E7 /* Pods-UIUserNotificationSettings-Extension-acknowledgements.plist */,
+				EE7F72B301D2FAB2A9D87D05CBA0FE69 /* Pods-UIUserNotificationSettings-Extension-dummy.m */,
+				0457F0A1FD9A6823C07E54B769BBE3F9 /* Pods-UIUserNotificationSettings-Extension-resources.sh */,
+				014953C1D937DA82932DEE97F41D7355 /* Pods-UIUserNotificationSettings-Extension.debug.xcconfig */,
+				2676BC9FEA15C797A249B1162A5E7EE7 /* Pods-UIUserNotificationSettings-Extension.release.xcconfig */,
 			);
 			name = "Pods-UIUserNotificationSettings-Extension";
 			path = "Target Support Files/Pods-UIUserNotificationSettings-Extension";
 			sourceTree = "<group>";
 		};
-		33729F5C7A4640CC8D437AE4 /* Products */ = {
+		372CEF8667D9FFF62D78E60EFCABF66E /* Pods-Tests */ = {
 			isa = PBXGroup;
 			children = (
-				E9FB71D64718E4CB72D332C3 /* libPods-Tests.a */,
-				E45F6B24D2A178085962F7A0 /* libPods-Tests-UIUserNotificationSettings-Extension.a */,
-				84012744EBFF58AD59D5F8BB /* libPods-UIUserNotificationSettings-Extension.a */,
-				2AFCCAD68D9F2AC562AAC09A /* libPods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		53C71BEFA4CAB3AC211BD5A9 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				7F317F376FD4A7AA75917CBE /* Foundation.framework */,
-				10CFEF8804C2F33D69B8877A /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		77B88025FD1B5A91CE1B0F8D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				321EAED49D9A4A876C7490C2 /* Pods-Tests-UIUserNotificationSettings-Extension.xcconfig */,
-				36A134D5B568A57E1EB3205A /* Pods-Tests-UIUserNotificationSettings-Extension-Private.xcconfig */,
-				9B5EE6BC3115230B189D82CB /* Pods-Tests-UIUserNotificationSettings-Extension-dummy.m */,
-				348FF6D9358BBE5BCFE68BB6 /* Pods-Tests-UIUserNotificationSettings-Extension-prefix.pch */,
-				3D791C6FF62E8F2E00B3C308 /* Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension.xcconfig */,
-				C732430F452EFB925D6132CE /* Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension-Private.xcconfig */,
-				9CEE5435E254515081ECED68 /* Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension-dummy.m */,
-				62FFB39A6A3388AC2024D673 /* Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-Tests-UIUserNotificationSettings-Extension";
-			sourceTree = "<group>";
-		};
-		7B689F2ECECFA9B88743CB35 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				B327B0BE910934AD1F6E9C56 /* UIUserNotificationSettings+Extension.h */,
-				B8FAF97CA9F1729F51DF86A4 /* UIUserNotificationSettings+Extension.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		A1DEBB357E5183BFE0095B7C /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AA20A49760332077C3F9C566 /* Pods-Tests */,
-				28A24DB11475647E5556465F /* Pods-UIUserNotificationSettings-Extension */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		AA20A49760332077C3F9C566 /* Pods-Tests */ = {
-			isa = PBXGroup;
-			children = (
-				995317812D6B3730D05CA8B2 /* Pods-Tests-acknowledgements.markdown */,
-				D6714C29F03102CF506CB2FB /* Pods-Tests-acknowledgements.plist */,
-				F27E90540C90F33FBFEE5730 /* Pods-Tests-dummy.m */,
-				C396BDD4E67AC4F1324E0335 /* Pods-Tests-environment.h */,
-				AF0BB6C7D191F3F857161D03 /* Pods-Tests-resources.sh */,
-				AFBB8B5A5010F823A6C57983 /* Pods-Tests.debug.xcconfig */,
-				FFB3E3F7BBBECA7566A2876A /* Pods-Tests.release.xcconfig */,
+				EE5AC399CDC7919F958D249CE4E92DB5 /* Pods-Tests-acknowledgements.markdown */,
+				E106F42061E5964C72F89399DC9D21C8 /* Pods-Tests-acknowledgements.plist */,
+				741433EC04AB783552455F9131533FB8 /* Pods-Tests-dummy.m */,
+				C10FD72A4DD475A05AC20B1553EA88E6 /* Pods-Tests-resources.sh */,
+				DFCE2252CC49DDC6DD2D84DDD99E427C /* Pods-Tests.debug.xcconfig */,
+				1D9AAB8128CE26D6EF7A65CF04682E3A /* Pods-Tests.release.xcconfig */,
 			);
 			name = "Pods-Tests";
 			path = "Target Support Files/Pods-Tests";
 			sourceTree = "<group>";
 		};
-		C011405C86C06B93DB06BF31 /* Frameworks */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53C71BEFA4CAB3AC211BD5A9 /* iOS */,
+				D0FB9306D21AF23A056944AE037CBFFF /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C68CF4B49FE92442C7F69FCD /* UIUserNotificationSettings-Extension */ = {
+		460097ECBE26D058A34F3DBA5B48B3D6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F8311344F9AC61B822B78FA9 /* Pod */,
-				77B88025FD1B5A91CE1B0F8D /* Support Files */,
+				C6CD6EDA5633DAE1111F0FA9E6DB7AE9 /* UIUserNotificationSettings-Extension.xcconfig */,
+				81551DBE3112A2AC41C5A10A7441AE0A /* UIUserNotificationSettings-Extension-Private.xcconfig */,
+				79A57490C11987AA7CFB66EE990D5A74 /* UIUserNotificationSettings-Extension-dummy.m */,
+				67FF138165E5F690C9844B371504D310 /* UIUserNotificationSettings-Extension-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UIUserNotificationSettings-Extension";
+			sourceTree = "<group>";
+		};
+		78EF2CA8C9CE6941546C38575A964B4E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				372CEF8667D9FFF62D78E60EFCABF66E /* Pods-Tests */,
+				333EBAD12CD9ECF5DDBABD435CD96BC1 /* Pods-UIUserNotificationSettings-Extension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				AF7DE5F60CFE841382D3AC30A5469259 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				78EF2CA8C9CE6941546C38575A964B4E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AF7DE5F60CFE841382D3AC30A5469259 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B49E0FBC07A8FD9021A93C711531D5FF /* UIUserNotificationSettings-Extension */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B49E0FBC07A8FD9021A93C711531D5FF /* UIUserNotificationSettings-Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E612B396A450C3FADAC6AC6D9E331528 /* Pod */,
+				460097ECBE26D058A34F3DBA5B48B3D6 /* Support Files */,
 			);
 			name = "UIUserNotificationSettings-Extension";
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		F8311344F9AC61B822B78FA9 /* Pod */ = {
+		C00A0FC737CD7C9D0679D7FC856838C7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7B689F2ECECFA9B88743CB35 /* Classes */,
+				AF824789290830A636D8E76BD40894EE /* UIUserNotificationSettings+Extension.h */,
+				A8F9197026FAE69BE3CCCEA71AF96938 /* UIUserNotificationSettings+Extension.m */,
 			);
-			path = Pod;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		FD453932B5B8549FD52BF56A /* Development Pods */ = {
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C68CF4B49FE92442C7F69FCD /* UIUserNotificationSettings-Extension */,
+				0A2BA23C297A45EF5656DC1E90DBAA29 /* libPods-Tests.a */,
+				A2369269254BC6E092D9DCDA558F1A2E /* libPods-UIUserNotificationSettings-Extension.a */,
+				8E5F1593EC19E9C595E7AEFE564E690F /* libUIUserNotificationSettings-Extension.a */,
 			);
-			name = "Development Pods";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0FB9306D21AF23A056944AE037CBFFF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B260377BB79E7A60DC46DFA276458C11 /* Foundation.framework */,
+				23A10E928BB2A5C1EC2722086F83005C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E612B396A450C3FADAC6AC6D9E331528 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C00A0FC737CD7C9D0679D7FC856838C7 /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		949E15AF6180BF2B586F3F42 /* Headers */ = {
+		31BD2B616F256D211CDD4C0289EE67C8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6844DFD5CF83076D3FCC8AB5 /* UIUserNotificationSettings+Extension.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC2C0947BA495F8BADB5F357 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D52380FBF10F1CBFC13359D0 /* UIUserNotificationSettings+Extension.h in Headers */,
+				8B7C7FA8B33470EDF9DCEF06AB8637A0 /* UIUserNotificationSettings+Extension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		14836A8301C1A099E92D6E4B /* Pods-UIUserNotificationSettings-Extension */ = {
+		03AB3644AE24C7BC8D7FB83AACEB71FE /* UIUserNotificationSettings-Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76F19EBD03CD370EC3CD6EC5 /* Build configuration list for PBXNativeTarget "Pods-UIUserNotificationSettings-Extension" */;
+			buildConfigurationList = 659111882C687682FC03C10902DAF3C4 /* Build configuration list for PBXNativeTarget "UIUserNotificationSettings-Extension" */;
 			buildPhases = (
-				70C63204CEFAED8D17B95620 /* Sources */,
-				3371246285429D6CDFAD682B /* Frameworks */,
+				C6AFF2A4A80FD6508E500A059C531AC9 /* Sources */,
+				E575CF99C75F04268D4E0D144F025D36 /* Frameworks */,
+				31BD2B616F256D211CDD4C0289EE67C8 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3781C2A440FDA3A0B961EF93 /* PBXTargetDependency */,
 			);
-			name = "Pods-UIUserNotificationSettings-Extension";
-			productName = "Pods-UIUserNotificationSettings-Extension";
-			productReference = 84012744EBFF58AD59D5F8BB /* libPods-UIUserNotificationSettings-Extension.a */;
+			name = "UIUserNotificationSettings-Extension";
+			productName = "UIUserNotificationSettings-Extension";
+			productReference = 8E5F1593EC19E9C595E7AEFE564E690F /* libUIUserNotificationSettings-Extension.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		76B8A2748EA985FC227A5311 /* Pods-Tests */ = {
+		4C192EEFE1CE63E2ABEC39AC28E73EE2 /* Pods-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A39E669015B285D53C5AFA92 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildConfigurationList = 9E8C824286BF69762DA6D59657D08247 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
 			buildPhases = (
-				3422528AEC38945FF8A8F732 /* Sources */,
-				6DAFC7C4ED4FFB78C9868136 /* Frameworks */,
+				5DDC278462F59578BC2980FCF443F7B3 /* Sources */,
+				AEF247A863DDFA6FECA5664DB19621E6 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				08236420404D052E6CA542CA /* PBXTargetDependency */,
+				088DBF20F9C35D32D987CCB12704BAEC /* PBXTargetDependency */,
 			);
 			name = "Pods-Tests";
 			productName = "Pods-Tests";
-			productReference = E9FB71D64718E4CB72D332C3 /* libPods-Tests.a */;
+			productReference = 0A2BA23C297A45EF5656DC1E90DBAA29 /* libPods-Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		A90D0DF39F723D9A1CBB1841 /* Pods-Tests-UIUserNotificationSettings-Extension */ = {
+		EF8A3EB5A1CF81EC59CAA18C6E18BFAE /* Pods-UIUserNotificationSettings-Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95947DA5F38650631EED8C33 /* Build configuration list for PBXNativeTarget "Pods-Tests-UIUserNotificationSettings-Extension" */;
+			buildConfigurationList = B8805FF47F003A2C3145CD5A8E3C0470 /* Build configuration list for PBXNativeTarget "Pods-UIUserNotificationSettings-Extension" */;
 			buildPhases = (
-				B9E2D973149B1935D6171EA0 /* Sources */,
-				A0BC5A49B18F961CDCE9CABD /* Frameworks */,
-				949E15AF6180BF2B586F3F42 /* Headers */,
+				3E030D472D8DF67A6676979837545784 /* Sources */,
+				5F56BDFCC4D368A92CC262C7886B0266 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2D7A94F26BC7D075C4AF55E72FEC213B /* PBXTargetDependency */,
 			);
-			name = "Pods-Tests-UIUserNotificationSettings-Extension";
-			productName = "Pods-Tests-UIUserNotificationSettings-Extension";
-			productReference = E45F6B24D2A178085962F7A0 /* libPods-Tests-UIUserNotificationSettings-Extension.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		C80898A9A5DA6C6AA73A7AF3 /* Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 78C2C7952A901C7E3FEEDE67 /* Build configuration list for PBXNativeTarget "Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension" */;
-			buildPhases = (
-				F516787E70D4C99051739336 /* Sources */,
-				67FA2B3D07F52B518AD3FB5F /* Frameworks */,
-				FC2C0947BA495F8BADB5F357 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension";
-			productName = "Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension";
-			productReference = 2AFCCAD68D9F2AC562AAC09A /* libPods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension.a */;
+			name = "Pods-UIUserNotificationSettings-Extension";
+			productName = "Pods-UIUserNotificationSettings-Extension";
+			productReference = A2369269254BC6E092D9DCDA558F1A2E /* libPods-UIUserNotificationSettings-Extension.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		942050F5557479A5DAFE0DEF /* Project object */ = {
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 			};
-			buildConfigurationList = EFB481B199691E77CAF97A71 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 02975CD27ED44AD3FE1C8598;
-			productRefGroup = 33729F5C7A4640CC8D437AE4 /* Products */;
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				76B8A2748EA985FC227A5311 /* Pods-Tests */,
-				A90D0DF39F723D9A1CBB1841 /* Pods-Tests-UIUserNotificationSettings-Extension */,
-				14836A8301C1A099E92D6E4B /* Pods-UIUserNotificationSettings-Extension */,
-				C80898A9A5DA6C6AA73A7AF3 /* Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension */,
+				4C192EEFE1CE63E2ABEC39AC28E73EE2 /* Pods-Tests */,
+				EF8A3EB5A1CF81EC59CAA18C6E18BFAE /* Pods-UIUserNotificationSettings-Extension */,
+				03AB3644AE24C7BC8D7FB83AACEB71FE /* UIUserNotificationSettings-Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3422528AEC38945FF8A8F732 /* Sources */ = {
+		3E030D472D8DF67A6676979837545784 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				432DAFD3DBC9B9B1767DB342 /* Pods-Tests-dummy.m in Sources */,
+				81D34170BE8662DF4D1BEC16CBDBE3A7 /* Pods-UIUserNotificationSettings-Extension-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70C63204CEFAED8D17B95620 /* Sources */ = {
+		5DDC278462F59578BC2980FCF443F7B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E50C829E50912FC3B989F6E /* Pods-UIUserNotificationSettings-Extension-dummy.m in Sources */,
+				EB4CA9CCFFF2F754E22B5BFD4A0C01C5 /* Pods-Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9E2D973149B1935D6171EA0 /* Sources */ = {
+		C6AFF2A4A80FD6508E500A059C531AC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B615B163CDA7E0C00A7B4537 /* Pods-Tests-UIUserNotificationSettings-Extension-dummy.m in Sources */,
-				21566A321616B00211FEBDC4 /* UIUserNotificationSettings+Extension.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F516787E70D4C99051739336 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EFA05BA18670C503951399B7 /* Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension-dummy.m in Sources */,
-				3496C48CB64BFE9974061A67 /* UIUserNotificationSettings+Extension.m in Sources */,
+				EE032AAF30DDFBFD5C32C615BFC2783B /* UIUserNotificationSettings+Extension.m in Sources */,
+				FA2BDE74347243BACA06FF048E90928C /* UIUserNotificationSettings-Extension-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		08236420404D052E6CA542CA /* PBXTargetDependency */ = {
+		088DBF20F9C35D32D987CCB12704BAEC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Tests-UIUserNotificationSettings-Extension";
-			target = A90D0DF39F723D9A1CBB1841 /* Pods-Tests-UIUserNotificationSettings-Extension */;
-			targetProxy = 1BB1543D8BAD7C120032FE87 /* PBXContainerItemProxy */;
+			name = "UIUserNotificationSettings-Extension";
+			target = 03AB3644AE24C7BC8D7FB83AACEB71FE /* UIUserNotificationSettings-Extension */;
+			targetProxy = D5E56716BC5D5211CBE5F28129E114E3 /* PBXContainerItemProxy */;
 		};
-		3781C2A440FDA3A0B961EF93 /* PBXTargetDependency */ = {
+		2D7A94F26BC7D075C4AF55E72FEC213B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension";
-			target = C80898A9A5DA6C6AA73A7AF3 /* Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension */;
-			targetProxy = 04F115FABF6A908D3C6EB3B0 /* PBXContainerItemProxy */;
+			name = "UIUserNotificationSettings-Extension";
+			target = 03AB3644AE24C7BC8D7FB83AACEB71FE /* UIUserNotificationSettings-Extension */;
+			targetProxy = B3C5B9EF3A39990A74D427352EEA372E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		145B4912AADFE35F89115EE4 /* Release */ = {
+		121D3FA8FE14D158313DC7AD75AF25ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFCE2252CC49DDC6DD2D84DDD99E427C /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		13C0ED3D80CD55512897C7CAA303B47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81551DBE3112A2AC41C5A10A7441AE0A /* UIUserNotificationSettings-Extension-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIUserNotificationSettings-Extension/UIUserNotificationSettings-Extension-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		32CA99C0DD6A3734F669B05E /* Release */ = {
+		511845FCADAE906C59340B1D7D27DF95 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCE5BB82E82F3AEDA63843A6 /* Pods-UIUserNotificationSettings-Extension.release.xcconfig */;
+			baseConfigurationReference = 2676BC9FEA15C797A249B1162A5E7EE7 /* Pods-UIUserNotificationSettings-Extension.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -462,9 +398,9 @@
 			};
 			name = Release;
 		};
-		33A774798FF5EE91122C1E00 /* Release */ = {
+		8FCED84FED6FC366A1BF5A2DA65695BC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFB3E3F7BBBECA7566A2876A /* Pods-Tests.release.xcconfig */;
+			baseConfigurationReference = 1D9AAB8128CE26D6EF7A65CF04682E3A /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -478,7 +414,23 @@
 			};
 			name = Release;
 		};
-		8B154F0B1FA9B9BE535FFBBC /* Debug */ = {
+		A5482760656936DA7D14ED324881F722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 014953C1D937DA82932DEE97F41D7355 /* Pods-UIUserNotificationSettings-Extension.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -517,12 +469,12 @@
 			};
 			name = Debug;
 		};
-		B7EBC6B6EF2187EF909D5C93 /* Debug */ = {
+		A73885C4802C364D30177E99BAA1EC8F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36A134D5B568A57E1EB3205A /* Pods-Tests-UIUserNotificationSettings-Extension-Private.xcconfig */;
+			baseConfigurationReference = 81551DBE3112A2AC41C5A10A7441AE0A /* UIUserNotificationSettings-Extension-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-UIUserNotificationSettings-Extension/Pods-Tests-UIUserNotificationSettings-Extension-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/UIUserNotificationSettings-Extension/UIUserNotificationSettings-Extension-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -533,135 +485,80 @@
 			};
 			name = Debug;
 		};
-		BE745AC477C597B2A691C4BF /* Debug */ = {
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 818321698278B55AD9699B54 /* Pods-UIUserNotificationSettings-Extension.debug.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		BEDC50C299D5AFBF619F665C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFBB8B5A5010F823A6C57983 /* Pods-Tests.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		C331439E84ABCBD89F872797 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C732430F452EFB925D6132CE /* Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension/Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		CA53E5C6FE53F23A3C28EC58 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36A134D5B568A57E1EB3205A /* Pods-Tests-UIUserNotificationSettings-Extension-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-UIUserNotificationSettings-Extension/Pods-Tests-UIUserNotificationSettings-Extension-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		EE2BE05F3F56D129C8FEF21E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C732430F452EFB925D6132CE /* Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension/Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		76F19EBD03CD370EC3CD6EC5 /* Build configuration list for PBXNativeTarget "Pods-UIUserNotificationSettings-Extension" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE745AC477C597B2A691C4BF /* Debug */,
-				32CA99C0DD6A3734F669B05E /* Release */,
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78C2C7952A901C7E3FEEDE67 /* Build configuration list for PBXNativeTarget "Pods-UIUserNotificationSettings-Extension-UIUserNotificationSettings-Extension" */ = {
+		659111882C687682FC03C10902DAF3C4 /* Build configuration list for PBXNativeTarget "UIUserNotificationSettings-Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C331439E84ABCBD89F872797 /* Debug */,
-				EE2BE05F3F56D129C8FEF21E /* Release */,
+				A73885C4802C364D30177E99BAA1EC8F /* Debug */,
+				13C0ED3D80CD55512897C7CAA303B47D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		95947DA5F38650631EED8C33 /* Build configuration list for PBXNativeTarget "Pods-Tests-UIUserNotificationSettings-Extension" */ = {
+		9E8C824286BF69762DA6D59657D08247 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B7EBC6B6EF2187EF909D5C93 /* Debug */,
-				CA53E5C6FE53F23A3C28EC58 /* Release */,
+				121D3FA8FE14D158313DC7AD75AF25ED /* Debug */,
+				8FCED84FED6FC366A1BF5A2DA65695BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A39E669015B285D53C5AFA92 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		B8805FF47F003A2C3145CD5A8E3C0470 /* Build configuration list for PBXNativeTarget "Pods-UIUserNotificationSettings-Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEDC50C299D5AFBF619F665C /* Debug */,
-				33A774798FF5EE91122C1E00 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EFB481B199691E77CAF97A71 /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8B154F0B1FA9B9BE535FFBBC /* Debug */,
-				145B4912AADFE35F89115EE4 /* Release */,
+				A5482760656936DA7D14ED324881F722 /* Debug */,
+				511845FCADAE906C59340B1D7D27DF95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 942050F5557479A5DAFE0DEF /* Project object */;
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }

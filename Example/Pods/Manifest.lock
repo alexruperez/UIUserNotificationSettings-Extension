@@ -1,5 +1,5 @@
 PODS:
-  - UIUserNotificationSettings-Extension (0.1.1)
+  - UIUserNotificationSettings-Extension (0.1.2)
 
 DEPENDENCIES:
   - UIUserNotificationSettings-Extension (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UIUserNotificationSettings-Extension: 400861cceb144130d7c3f942eb80295e172f2212
+  UIUserNotificationSettings-Extension: b7713638121f67f9924068cf84ebf0f81a78557b
 
-COCOAPODS: 0.36.3
+COCOAPODS: 0.38.2
